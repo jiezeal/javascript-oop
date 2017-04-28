@@ -23,3 +23,20 @@ var p2 = new CreatePerson('小强');
 p2.showName();
 ```
 
+当new去调用一个函数：这个时候函数中的this就是创建出来的对象，而且函数的返回值直接就是this(隐式返回)，也就是说最后一句 return obj 可以不写。上面的函数可以优化成如下：
+
+```
+function CreatePerson(name){
+    this.name = name;
+    this.showName = function(){
+        alert(this.name);
+    }
+}
+
+var p1 = new CreatePerson('小明');
+p1.showName();
+var p2 = new CreatePerson('小强');
+p2.showName();
+```
+
+
