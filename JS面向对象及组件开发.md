@@ -104,7 +104,7 @@ var b = a;
 alert(a==b);    //true
 ```
 
-这就是为什么 p1.showName == p2.showName 为true的原因
+这就是为什么 p1.showName == p2.showName 为false的原因， 每次new都会创建一个对象，都会在内存中新开一块空间。
 
 
 
