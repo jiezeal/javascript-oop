@@ -39,4 +39,6 @@ var p2 = new CreatePerson('小强');
 p2.showName();
 ```
 
+new后面调用的函数：叫做构造函数
+
 
