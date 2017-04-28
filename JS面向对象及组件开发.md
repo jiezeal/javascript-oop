@@ -104,6 +104,7 @@ var b = a;
 alert(a==b);    //true
 ```
 
+这就是为什么 p1.showName == p2.showName 为true的原因
 
 
 
