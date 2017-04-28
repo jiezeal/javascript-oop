@@ -62,6 +62,14 @@ var b = [1,2,3];
 alert(a == b);  //false
 ```
 
+```
+var a = 5;
+var b = a;
+b += 3;
+alert(b);   // 8
+alert(a);   // 5  基本类型：赋值的时候只是值的复制
+```
+
 
 
 
