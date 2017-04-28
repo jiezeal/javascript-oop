@@ -42,6 +42,18 @@ p2.showName();
 new后面调用的函数：叫做构造函数
 
 ###对象引用是什么和它的问题
+```
+function CreatePerson(name){
+    this.name = name;
+    this.showName = function(){
+        alert(this.name);
+    }
+}
 
+var p1 = new CreatePerson('小明');
+var p2 = new CreatePerson('小强');
+
+alert(p1.showName == p2.showName);      // false
+```
 
 
