@@ -56,6 +56,12 @@ var p2 = new CreatePerson('小强');
 alert(p1.showName == p2.showName);      // false
 ```
 
+```
+var a = [1,2,3];
+var b = [1,2,3];
+alert(a == b);  //false
+```
+
 
 
 
