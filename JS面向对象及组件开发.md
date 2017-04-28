@@ -104,7 +104,7 @@ var b = a;
 alert(a==b);    //true
 ```
 
-这就是为什么 p1.showName == p2.showName 为false的原因， 每次new都会创建一个对象，都会在内存中新开一块空间。虽然两创建的对象都有一个showName方法，但他们的引用地址是不相同的，所以为false
+这就是为什么 p1.showName == p2.showName 为false的原因， 每次new都会创建一个对象，都会在内存中新开一块空间。虽然两次创建的对象都有一个showName方法，但他们的引用地址却是不相同的，所以为false
 
 
 
