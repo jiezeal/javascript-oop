@@ -98,6 +98,12 @@ var b = [1,2,3];
 alert(a==b);    //false   对象类型：值和引用都相同才为真
 ```
 
+```
+var a = [1,2,3];
+var b = a;
+alert(a==b);    //true
+```
+
 
 
 
