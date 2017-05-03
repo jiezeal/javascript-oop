@@ -152,8 +152,10 @@ Array.prototype.sum = function () {
     return result;
 };
 
-alert(arr1.sum());
-alert(arr2.sum());
+alert(arr1.sum());		// 15
+alert(arr2.sum());		// 20
 ```
+
+
 
 
