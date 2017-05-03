@@ -179,6 +179,10 @@ var p1 = new CreatePerson('小明');
 var p2 = new CreatePerson('小强');
 
 alert(p1.showName == p2.showName);  // true
+p1.showName();  // 小明
+p2.showName();  // 小强
+alert(p1.name); // 小明
+alert(p2.name); // 小强
 ```
 
 面向对象写法总结：公用的东西就可以写在原型上面，比如像上面例子中的showName方法。但是，它的name属性是变化的，就不适合写在原型上面。暂时使用下面混编的方式来练习面向对象写法
