@@ -167,7 +167,18 @@ alert(arr.number);  // 10
 
 用原型方式改造之前用工厂方式写的方法
 ```
+function CreatePerson(name){
+    this.name = name;
+}
 
+CreatePerson.prototype.showName = function(){
+    alert(this.name);
+};
+
+var p1 = new CreatePerson('小明');
+var p2 = new CreatePerson('小强');
+
+alert(p1.showName == p2.showName);  // true
 ```
 
 
