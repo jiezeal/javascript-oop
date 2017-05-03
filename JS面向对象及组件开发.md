@@ -138,6 +138,22 @@ arr2.sum = function () {
 alert(arr2.sum());      // 20
 ```
 
+用原型改写：
+```
+// 原型：prototype：要写在构造函数的下面
+var arr1 = [1, 2, 3, 4, 5];
+var arr2 = [2, 3, 4, 5, 6];
 
+Array.prototype.sum = function () {
+    var result = 0;
+    for (var i = 0; i < this.length; i++) {
+        result += this[i];
+    }
+    return result;
+};
+
+alert(arr1.sum());
+alert(arr2.sum());
+```
 
 
