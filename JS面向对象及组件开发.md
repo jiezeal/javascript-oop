@@ -165,7 +165,10 @@ Array.prototype.number = 20;
 alert(arr.number);  // 10
 ```
 
+用原型方式改造之前用工厂方式写的方法
+```
 
+```
 
 
 
