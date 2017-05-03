@@ -156,6 +156,13 @@ alert(arr1.sum());		// 15
 alert(arr2.sum());		// 20
 ```
 
+普通方法与原型的优先级
+```
+var arr = [];
+arr.number = 10;
+Array.prototype.number = 20;
 
+alert(arr.number);  // 10
+```
 
 
