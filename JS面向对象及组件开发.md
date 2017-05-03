@@ -181,7 +181,7 @@ var p2 = new CreatePerson('小强');
 alert(p1.showName == p2.showName);  // true
 ```
 
-
+面向对象写法总结：
 
 
 
