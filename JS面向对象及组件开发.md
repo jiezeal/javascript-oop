@@ -109,6 +109,33 @@ alert(a==b);    //true
 原型：原型的作用就是去改写对象下面公用的方法或者属性，让公用的方法或者属性在内存中只存在一份，这样就可以提高性能
 
 ###面向对象之原型学习
+```
+// arr1数组求和
+var arr1 = [1, 2, 3, 4, 5];
 
+arr1.sum = function () {
+    var result = 0;
+    for (var i = 0; i < this.length; i++) {
+        result += this[i];
+    }
+    return result;
+};
+
+alert(arr1.sum());       // 15
+
+
+// arr2数组求和
+var arr2 = [2, 3, 4, 5, 6];
+
+arr2.sum = function () {
+    var result = 0;
+    for (var i = 0; i < this.length; i++) {
+        result += this[i];
+    }
+    return result;
+};
+
+alert(arr2.sum());      // 20
+```
 
 
