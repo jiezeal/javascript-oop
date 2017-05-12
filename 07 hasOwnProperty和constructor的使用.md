@@ -27,3 +27,11 @@ alert( arr.constructor );
 alert( arr.constructor == Array );      // true
 ```
 
+```
+function Aaa(){
+
+}
+// Aaa.prototype.constructor = Aaa;        // 每一个函数都会有的，都是系统自动生成的
+var a1 = new Aaa();
+alert(a1.constructor);
+```
