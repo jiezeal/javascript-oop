@@ -35,3 +35,4 @@ function Aaa(){
 var a1 = new Aaa();
 alert(a1.constructor);
 ```
+
