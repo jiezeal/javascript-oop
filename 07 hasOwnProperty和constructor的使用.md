@@ -123,7 +123,7 @@ function Aaa(){
 Aaa.prototype.name = 'zhangsan';
 
 for(var attr in Aaa.prototype){
-    alert(attr);
+    alert(attr);    // zhangsan
 }
 ```
 
