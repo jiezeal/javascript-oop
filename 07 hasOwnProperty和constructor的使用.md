@@ -114,4 +114,16 @@ for(var attr in Aaa.prototype){
     alert(attr);
 }
 ```
+非系统自动生成的属性 for in 可以找到
+```
+function Aaa(){
+
+}
+
+Aaa.prototype.name = 'zhangsan';
+
+for(var attr in Aaa.prototype){
+    alert(attr);
+}
+```
 
