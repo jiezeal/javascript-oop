@@ -47,4 +47,13 @@ alert(a1.constructor);
 ```
 
 系统只会自动生成一个constructor，那hasOwnProperty又是从哪里来的呢
+```
+function Aaa(){
+
+}
+var a1 = new Aaa();
+alert(a1.hasOwnProperty == Object.prototype.hasOwnProperty);    // true
+```
+
+
 
