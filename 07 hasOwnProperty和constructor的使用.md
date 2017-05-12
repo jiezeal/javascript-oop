@@ -45,3 +45,4 @@ Aaa.prototype.constructor = Array;         // 可以把它覆盖掉
 var a1 = new Aaa();
 alert(a1.constructor);
 ```
+
