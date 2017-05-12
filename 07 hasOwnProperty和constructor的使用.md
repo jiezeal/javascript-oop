@@ -126,4 +126,3 @@ for(var attr in Aaa.prototype){
     alert(attr);    // zhangsan
 }
 ```
-
