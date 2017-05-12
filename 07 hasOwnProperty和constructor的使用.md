@@ -54,6 +54,6 @@ function Aaa(){
 var a1 = new Aaa();
 alert(a1.hasOwnProperty == Object.prototype.hasOwnProperty);    // true
 ```
-
+这说明a1.hasOwnProperty中的hasOwnProperty方法是在Object下面的
 
 
