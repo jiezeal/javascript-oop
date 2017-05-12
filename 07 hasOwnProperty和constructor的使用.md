@@ -56,6 +56,15 @@ alert(a1.hasOwnProperty == Object.prototype.hasOwnProperty);    // true
 ```
 这说明a1.hasOwnProperty中的hasOwnProperty方法是在Object对象下面的
 
+有时候我们会在不经意间就把constructor改掉了
+```
+function Aaa(){
 
+}
+Aaa.prototype.name = 'zhangsan';
+Aaa.prototype.age = 20;
+var a1 = new Aaa();
+alert( a1.constructor );
+```
 
 
