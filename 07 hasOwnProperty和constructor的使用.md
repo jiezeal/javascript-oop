@@ -36,3 +36,12 @@ var a1 = new Aaa();
 alert(a1.constructor);
 ```
 
+```
+function Aaa(){
+
+}
+// Aaa.prototype.constructor = Aaa;        // 每一个函数都会有的，都是系统自动生成的
+Aaa.prototype.constructor = Array;         // 可以把它覆盖掉
+var a1 = new Aaa();
+alert(a1.constructor);
+```
