@@ -78,7 +78,7 @@ Aaa.prototype = {
 var a1 = new Aaa();
 alert( a1.constructor );
 ```
-上面这种写法就会把constructor改掉。如果想要使用简写形式，就要修正constructor的指向
+上面这种写法就会把constructor改掉。如果想要使用简写形式，需要修正constructor的指向
 ```
 function Aaa(){
 
