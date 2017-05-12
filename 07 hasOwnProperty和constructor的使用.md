@@ -13,3 +13,17 @@ alert( arr.hasOwnProperty('num2') );    // false
 ```
 
 constructor：查看对象的构造函数
+```
+function Aaa(){
+
+}
+var a1 = new Aaa();
+alert( a1.constructor );
+
+
+var arr = [];
+alert( arr.constructor );
+
+alert( arr.constructor == Array );      // true
+```
+
