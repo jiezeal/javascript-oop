@@ -92,5 +92,5 @@ var a1 = new Aaa();
 alert( a1.constructor );
 ```
 
-
+系统生成的属性 for in 是找不到的
 
