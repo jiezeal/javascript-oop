@@ -12,3 +12,4 @@ alert( arr.hasOwnProperty('num') );     // true
 alert( arr.hasOwnProperty('num2') );    // false
 ```
 
+constructor：查看对象的构造函数
