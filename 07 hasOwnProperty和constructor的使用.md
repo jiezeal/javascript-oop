@@ -31,7 +31,7 @@ alert( arr.constructor == Array );      // true
 function Aaa(){
 
 }
-// Aaa.prototype.constructor = Aaa;        // 每一个函数都会有的，都是系统自动生成的。也只有这一句才是系统自动生成的，唯一的一句
+// Aaa.prototype.constructor = Aaa;        // 这句话是系统自动生成的，也是由系统生成的唯一的一句话
 var a1 = new Aaa();
 alert(a1.constructor);
 ```
