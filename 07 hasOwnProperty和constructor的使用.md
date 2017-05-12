@@ -92,5 +92,14 @@ var a1 = new Aaa();
 alert( a1.constructor );
 ```
 
-系统生成的属性 for in 是找不到的
+系统自动生成的属性 for in 是找不到的
+```
+function Aaa(){
+
+}
+
+for(var attr in Aaa.prototype){
+    alert(attr);
+}
+```
 
