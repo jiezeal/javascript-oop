@@ -1,0 +1,2 @@
+#hasOwnProperty和constructor的使用
+
