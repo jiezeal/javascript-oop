@@ -102,4 +102,16 @@ for(var attr in Aaa.prototype){
     alert(attr);
 }
 ```
+重写系统自动生成的属性 for in 同样找不到
+```
+function Aaa(){
+
+}
+
+Aaa.prototype.constructor = Aaa;
+
+for(var attr in Aaa.prototype){
+    alert(attr);
+}
+```
 
