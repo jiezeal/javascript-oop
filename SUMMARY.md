@@ -4,3 +4,4 @@
 * [04 控制多个选项卡自动播放](04 控制多个选项卡自动播放.md)
 * [05 用面向对象编写拖拽](05 用面向对象编写拖拽.md)
 * [06 JS面向对象及组件开发](06 JS面向对象及组件开发.md)
+* [07 hasOwnProperty和constructor的使用](07 hasOwnProperty和constructor的使用.md)
