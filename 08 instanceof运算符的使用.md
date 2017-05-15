@@ -13,3 +13,10 @@ alert(a1 instanceof Object);    // true
 alert(a1 instanceof Array);     // false
 ```
 
+使用instanceof做类型判断
+```
+var arr = [];
+var str = '';
+alert(arr instanceof Array);    // true
+alert(str instanceof Array);    // false
+```
