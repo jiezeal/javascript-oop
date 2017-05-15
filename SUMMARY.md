@@ -5,3 +5,4 @@
 * [05 用面向对象编写拖拽](05 用面向对象编写拖拽.md)
 * [06 JS面向对象及组件开发](06 JS面向对象及组件开发.md)
 * [07 hasOwnProperty和constructor的使用](07 hasOwnProperty和constructor的使用.md)
+* [08 instanceof运算符的使用](08 instanceof运算符的使用.md)
