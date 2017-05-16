@@ -43,4 +43,10 @@ alert( typeof arr.toString() );         // string
 alert( arr.toString() );                // 1+2+3
 ```
 
+进制转换
+```
+var num = 255;
+alert( num.toString(16) );         // 将255转成16进制 ff
+```
+
 
