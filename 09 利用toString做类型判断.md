@@ -43,3 +43,4 @@ alert( typeof arr.toString() );         // string
 alert( arr.toString() );                // 1+2+3
 ```
 
+
