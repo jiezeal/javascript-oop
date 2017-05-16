@@ -55,3 +55,5 @@ var arr = [];
 alert( Object.prototype.toString.call(arr) );                           // [object Array]
 alert( Object.prototype.toString.call(arr) == '[object Array]' );       // true
 ```
+
+
