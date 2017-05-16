@@ -24,3 +24,9 @@ var a1 = new Aaa();
 alert( a1.toString == Object.prototype.toString );      // true
 ```
 
+toString()作用：把对象转成字符串
+```
+var arr = [1,2,3];
+alert( typeof arr.toString() );         // string
+alert( arr.toString() );                // 1,2,3
+```
