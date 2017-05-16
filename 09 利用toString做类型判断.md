@@ -31,3 +31,14 @@ alert( typeof arr.toString() );         // string
 alert( arr.toString() );                // 1,2,3
 ```
 
+按照自定义规则将对象转成字符串
+```
+var arr = [1,2,3];
+
+Array.prototype.toString = function(){
+    return this.join('+');
+};
+
+alert( typeof arr.toString() );         // string
+alert( arr.toString() );                // 1+2+3
+```
