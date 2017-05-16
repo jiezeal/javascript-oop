@@ -49,7 +49,7 @@ var num = 255;
 alert( num.toString(16) );         // 将255转成16进制 ff
 ```
 
-利用toString做类型判断
+利用toString做类型判断 (推荐使用这种方法来做类型判断)
 ```
 var arr = [];
 alert( Object.prototype.toString.call(arr) );       // [object Array]
