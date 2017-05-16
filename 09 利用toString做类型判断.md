@@ -52,7 +52,7 @@ alert( num.toString(16) );         // 将255转成16进制 ff
 利用toString做类型判断
 ```
 var arr = [];
-alert( Object.prototype.toString.call(arr) );                           // [object Array]
+alert( Object.prototype.toString.call(arr) );       // [object Array]
 alert( Object.prototype.toString.call(arr) == '[object Array]' );       // true
 ```
 
