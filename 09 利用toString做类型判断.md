@@ -56,7 +56,7 @@ alert( Object.prototype.toString.call(arr) );       // [object Array]
 alert( Object.prototype.toString.call(arr) == '[object Array]' );       // true
 ```
 
-通过constructor和instanceof也可以用来做类型判断，在大多数情况下是没有问题的，可以在一些特殊情况下这两种方法就会失效
+通过constructor和instanceof也可以用来做类型判断，在大多数情况下是没有问题的，可以在一些特殊情况下这两种方法就会失效，如下：
 ```
 window.onload = function(){
     var oF = document.createElement('iframe');
