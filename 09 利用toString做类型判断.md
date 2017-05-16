@@ -11,3 +11,4 @@ function Aaa(){
 var a1 = new Aaa();
 alert( a1.toString );       // function toString() { [native code] }
 ```
+
