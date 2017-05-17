@@ -7,3 +7,4 @@
 * [07 hasOwnProperty和constructor的使用](07 hasOwnProperty和constructor的使用.md)
 * [08 instanceof运算符的使用](08 instanceof运算符的使用.md)
 * [09 利用toString做类型判断](09 利用toString做类型判断.md)
+* [10 什么是面向对象的继承](10 什么是面向对象的继承.md)
